@@ -1,0 +1,83 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+
+  background: #ffffff;
+  color: #000000;
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.filters-list {
+  list-style-type: none;
+  overflow: hidden;
+}
+.filters-list button {
+  background-color: #f5f4fa; /* Green background */
+  border: 1px solid green; /* Green border */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer;
+  float: left;
+  border-radius: 4px;
+}
+
+.filters-list button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.filters-list:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.filters-list button:hover {
+  background-color: #2196f3;
+}
+.filter {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+.filter:active {
+  color: 2196f3;
+}
+
+.portfolio {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
