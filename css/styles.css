@@ -7,28 +7,42 @@ body {
   color: #000000;
   font-family: "Roboto", "Raleway", sans-serif;
 }
-
+/* Menu styles */
 .logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
 
-width: 145px;
-height: 31px;
-left: 215px;
-top: 1688px;
-
-font-family: Raleway;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.menu {
+a {
+  color: #000000;
   font-weight: 500;
   font-size: 14px;
   list-style-type: none;
   line-height: 16px;
   letter-spacing: 0.02em;
+}
+
+a:hover, a:focus {
+  color: #2196f3;
+}
+
+button {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:focus, button:hover {
+  color: #2196f3;
 }
 
 .mail {
@@ -40,6 +54,10 @@ text-decoration: none;
   text-decoration: none;
 }
 
+.mail:hover, .mail:focus {
+  color: #2196f3;
+}
+
 .tel {
   font-weight: 500;
   font-size: 14px;
@@ -48,32 +66,10 @@ text-decoration: none;
   color: #757575;
 }
 
-.filters-list {
-  list-style-type: none;
-  overflow: hidden;
-}
-.filters-list button {
-  background-color: #f5f4fa;
-  cursor: pointer;
-  float: left;
-  border-radius: 4px;
+.tel:hover, .tel:focus {
+  color: #2196f3;
 }
 
-.filters-list button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
-/* Clear floats (clearfix hack) */
-.filters-list:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Add a background color on hover */
-.filters-list button:hover {
-  background-color: #2196f3;
-}
 .filter {
   font-family: inherit;
   font-size: 16px;
