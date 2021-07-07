@@ -7,6 +7,23 @@ body {
   color: #212121;
   font-family: "Roboto", "Raleway", sans-serif;
 }
+
+/* header */
+
+.header {
+  background-color: #ffffff;
+}
+/* end header */
+
+/* hero */
+
+.hero{
+  background-color: #2F303A;
+  color: #ffffff;
+}
+
+/* end hero */
+
 /* Menu styles */
 .logo {
   width: 145px;
@@ -56,6 +73,7 @@ a:focus {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .tel:hover,
@@ -109,3 +127,13 @@ p {
   color: #757575;
 }
 /* end main pages style */
+/* footer */
+
+.footer  {
+  background-color: #2F303A;
+  
+}
+
+.address {
+  color: #ffffff;
+}
